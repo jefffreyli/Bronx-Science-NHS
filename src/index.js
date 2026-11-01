@@ -1,9 +1,2 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
-import App from "./components/App.jsx";
-import 'bootstrap/dist/css/bootstrap.css';
-
-ReactDOM.render(
-   <BrowserRouter><App/></BrowserRouter>, document.getElementById("root"));
-
+// The site now lives on Google Sites; send every visitor there.
+window.location.replace("https://sites.google.com/nycstudents.net/bronx-science-nhs/apply");
